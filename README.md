@@ -1,8 +1,8 @@
 ### Cheasheets
 
-* [kafka](https://github.com/anthonysyk/cheatsheets/kafka)
+* [kafka](https://github.com/anthonysyk/cheatsheets/tree/master/kafka)
 
-* [kubernetes](https://github.com/anthonysyk/cheatsheets/kubernetes)
+* [kubernetes](https://github.com/anthonysyk/cheatsheets/tree/master/kubernetes)
 
-* [system](https://github.com/anthonysyk/cheatsheets/system)
-* [github](https://github.com/anthonysyk/cheatsheets/github)
+* [system](https://github.com/anthonysyk/cheatsheets/tree/master/system)
+* [github](https://github.com/anthonysyk/cheatsheets/tree/master/github)
