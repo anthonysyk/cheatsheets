@@ -1,4 +1,4 @@
-### Cheasheets
+### Cheatsheets
 
 * [kafka](https://github.com/anthonysyk/cheatsheets/tree/master/kafka)
 
