@@ -14,3 +14,8 @@ $ bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic my-topic --conf
 ```bash
 $ bin/kafka-topics --zookeeper localhost:2181 --describe --topics-with-overrides
 ```
+
+- Start/Stop zookeeper
+```bash
+zookeeper-server-stop zookeeper-server-start
+```
