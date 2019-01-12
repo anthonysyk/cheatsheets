@@ -19,3 +19,9 @@ $ bin/kafka-topics --zookeeper localhost:2181 --describe --topics-with-overrides
 ```bash
 zookeeper-server-stop zookeeper-server-start
 ```
+
+- Delete a topic
+
+```bash
+kafka-topics --zookeeper localhost:2181 --delete --topic <topic_name>
+```
