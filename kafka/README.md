@@ -23,5 +23,14 @@ zookeeper-server-stop zookeeper-server-start
 - Delete a topic
 
 ```bash
-kafka-topics --zookeeper localhost:2181 --delete --topic <topic_name>
+kafka-topics --zookeeper localhost:2181 --delete --topic <topic_name> (deprecated)
+```
+
+```bash
+kafka-configs.sh \
+  --alter \
+  --zookeeper localhost:2181 \
+  --entity-type topics \
+  --entity-name test \
+  --add-config retention.ms=5000
 ```
