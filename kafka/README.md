@@ -29,5 +29,7 @@ kafka-topics --zookeeper localhost:2181 --delete --topic <topic_name>
 ```bash
 kafka-configs   --alter   --zookeeper localhost:2181   --entity-type topics   --entity-name window_5min   --add-config retention.bytes=5000000000
 
+- Alter a topic configuration
+
 kafka-configs   --alter   --zookeeper localhost:2181   --entity-type topics   --entity-name window_5min   --add-config retention.ms=5000
 ```
