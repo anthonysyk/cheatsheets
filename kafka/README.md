@@ -33,3 +33,22 @@ kafka-configs   --alter   --zookeeper localhost:2181   --entity-type topics   --
 
 kafka-configs   --alter   --zookeeper localhost:2181   --entity-type topics   --entity-name window_5min   --add-config retention.ms=5000
 ```
+
+# Troubleshooting
+
+- Schema Registry
+
+Q: Failed to write Noop record to kafka store
+A: Delete _schema topic and recreate it
+```bash
+kafka-topics --zookeeper localhost:2181 --delete --topic _schema
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic _schema
+```
+
+Q: ERROR The retention policy of the schema topic _schemas is incorrect
+A: Set cleanup.polocy to "compact"
+```bash
+kafka-configs.sh --zookeeper localhost --entity-type topics --entity-name _schemas --alter --add-config cleanup.policy=compact
+```
+
+
