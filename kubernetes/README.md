@@ -11,4 +11,8 @@ Supprimer toutes les versions d'une release helm
 ```bash
 for i in {1..100}; do kubectl delete secret "my-release-helm-secret.v$i"; done
 ```
+Modifier le nombre de réplicats d'un pod
 
+```bash
+kubectl scale deployment --replicas=0
+```
