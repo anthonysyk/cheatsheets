@@ -16,3 +16,9 @@ Modifier le nombre de réplicats d'un pod
 ```bash
 kubectl scale deployment --replicas=0
 ```
+
+Supprimer tous les pods `Evicted`
+
+```bash
+kubectl get pods | grep Evicted | awk '{print $1}' | xargs kubectl delete pod
+```
