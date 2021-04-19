@@ -8,3 +8,6 @@ COPY examples :
 
 https://kb.objectrocket.com/postgresql/postgresql-copy-example-826#:~:text=In%20PostgreSQL%2C%20the%20SQL%20COPY,a%20table%20as%20PostgreSQL%20records.
 
+Insert Optimisation : 
+
+https://medium.com/@amoghagarwal/insert-optimisations-in-golang-26884b183b35
