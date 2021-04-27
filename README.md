@@ -4,6 +4,8 @@
 
 * [kubernetes](https://github.com/anthonysyk/cheatsheets/tree/master/kubernetes)
 
+* [gcloud](https://github.com/anthonysyk/cheatsheets/tree/master/gcloud)
+
 * [system](https://github.com/anthonysyk/cheatsheets/tree/master/system)
 * [github](https://github.com/anthonysyk/cheatsheets/tree/master/github)
 
